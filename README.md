@@ -1,0 +1,9 @@
+- swift: arry
+- MainViewController
+- ViewControllerの結びつけ
+  - ViewControllerがどう結びついてるか調べる方法
+- Navigation Controllerとは
+- weakとは
+- !はなに
+- UITableViewDataSourceとは
+- UITableViewDelegateとは
