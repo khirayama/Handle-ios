@@ -26,7 +26,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TaskContent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9X-Wo-DXq">
-                                            <rect key="frame" x="148" y="8" width="97" height="21"/>
+                                            <rect key="frame" x="16" y="0.0" width="139" height="36"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -48,7 +48,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wx6-Lp-EKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="737" y="38"/>
+            <point key="canvasLocation" x="736.79999999999995" y="37.331334332833585"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rRo-Ht-5qL">
