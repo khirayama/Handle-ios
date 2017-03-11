@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B06A3E71E73BDF700AC1B38 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B06A3E61E73BDF700AC1B38 /* SecondViewController.swift */; };
 		C06CA0481E729BAA00A82685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06CA0471E729BAA00A82685 /* AppDelegate.swift */; };
 		C06CA04D1E729BAA00A82685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06CA04B1E729BAA00A82685 /* Main.storyboard */; };
 		C06CA0501E729BAA00A82685 /* Handle_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C06CA04E1E729BAA00A82685 /* Handle_ios.xcdatamodeld */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B06A3E61E73BDF700AC1B38 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C06CA0441E729BAA00A82685 /* Handle-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handle-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06CA0471E729BAA00A82685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C06CA04C1E729BAA00A82685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				C06CA0531E729BAA00A82685 /* LaunchScreen.storyboard */,
 				C06CA0561E729BAA00A82685 /* Info.plist */,
 				C06CA04E1E729BAA00A82685 /* Handle_ios.xcdatamodeld */,
+				4B06A3E61E73BDF700AC1B38 /* SecondViewController.swift */,
 			);
 			path = "Handle-ios";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				C0D2152D1E72AB90009EE86A /* TaskCellTableViewCell.swift in Sources */,
 				C06CA0481E729BAA00A82685 /* AppDelegate.swift in Sources */,
 				C06CA0501E729BAA00A82685 /* Handle_ios.xcdatamodeld in Sources */,
+				4B06A3E71E73BDF700AC1B38 /* SecondViewController.swift in Sources */,
 				C06CA0791E72A3F100A82685 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

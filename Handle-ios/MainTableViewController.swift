@@ -41,9 +41,9 @@ class MainTableViewController: UITableViewController, SFSafariViewControllerDele
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
-    let webViewController = SFSafariViewController(url: URL(string: "https://google.com")!)
-    webViewController.delegate = self
-    present(webViewController, animated: true, completion: nil)
+    //    let webViewController = SFSafariViewController(url: URL(string: "https://google.com")!)
+    //    webViewController.delegate = self
+    //    present(webViewController, animated: true, completion: nil)
     //        let task = tasks[indexPath.row]
   }
   
