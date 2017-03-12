@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B06A3E71E73BDF700AC1B38 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B06A3E61E73BDF700AC1B38 /* SecondViewController.swift */; };
+		4B06A3E91E73C24900AC1B38 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B06A3E81E73C24900AC1B38 /* DashboardViewController.swift */; };
+		4B06A3EB1E73C26400AC1B38 /* LabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B06A3EA1E73C26400AC1B38 /* LabelsViewController.swift */; };
+		4B06A3ED1E73C27200AC1B38 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B06A3EC1E73C27200AC1B38 /* LabelViewController.swift */; };
+		4B06A3EF1E73C27B00AC1B38 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B06A3EE1E73C27B00AC1B38 /* TaskViewController.swift */; };
 		C06CA0481E729BAA00A82685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06CA0471E729BAA00A82685 /* AppDelegate.swift */; };
 		C06CA04D1E729BAA00A82685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06CA04B1E729BAA00A82685 /* Main.storyboard */; };
 		C06CA0501E729BAA00A82685 /* Handle_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C06CA04E1E729BAA00A82685 /* Handle_ios.xcdatamodeld */; };
@@ -15,8 +18,6 @@
 		C06CA0551E729BAA00A82685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06CA0531E729BAA00A82685 /* LaunchScreen.storyboard */; };
 		C06CA0601E729BAA00A82685 /* Handle_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06CA05F1E729BAA00A82685 /* Handle_iosTests.swift */; };
 		C06CA06B1E729BAA00A82685 /* Handle_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06CA06A1E729BAA00A82685 /* Handle_iosUITests.swift */; };
-		C06CA0791E72A3F100A82685 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06CA0781E72A3F100A82685 /* MainTableViewController.swift */; };
-		C0D2152D1E72AB90009EE86A /* TaskCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D2152C1E72AB90009EE86A /* TaskCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B06A3E61E73BDF700AC1B38 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4B06A3E81E73C24900AC1B38 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4B06A3EA1E73C26400AC1B38 /* LabelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsViewController.swift; sourceTree = "<group>"; };
+		4B06A3EC1E73C27200AC1B38 /* LabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		4B06A3EE1E73C27B00AC1B38 /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		C06CA0441E729BAA00A82685 /* Handle-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handle-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06CA0471E729BAA00A82685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C06CA04C1E729BAA00A82685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,8 +55,6 @@
 		C06CA0661E729BAA00A82685 /* Handle-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handle-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06CA06A1E729BAA00A82685 /* Handle_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle_iosUITests.swift; sourceTree = "<group>"; };
 		C06CA06C1E729BAA00A82685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C06CA0781E72A3F100A82685 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
-		C0D2152C1E72AB90009EE86A /* TaskCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				C06CA0471E729BAA00A82685 /* AppDelegate.swift */,
-				C06CA0781E72A3F100A82685 /* MainTableViewController.swift */,
-				C0D2152C1E72AB90009EE86A /* TaskCellTableViewCell.swift */,
 				C06CA04B1E729BAA00A82685 /* Main.storyboard */,
 				C06CA0511E729BAA00A82685 /* Assets.xcassets */,
 				C06CA0531E729BAA00A82685 /* LaunchScreen.storyboard */,
 				C06CA0561E729BAA00A82685 /* Info.plist */,
 				C06CA04E1E729BAA00A82685 /* Handle_ios.xcdatamodeld */,
-				4B06A3E61E73BDF700AC1B38 /* SecondViewController.swift */,
+				4B06A3E81E73C24900AC1B38 /* DashboardViewController.swift */,
+				4B06A3EA1E73C26400AC1B38 /* LabelsViewController.swift */,
+				4B06A3EC1E73C27200AC1B38 /* LabelViewController.swift */,
+				4B06A3EE1E73C27B00AC1B38 /* TaskViewController.swift */,
 			);
 			path = "Handle-ios";
 			sourceTree = "<group>";
@@ -268,11 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0D2152D1E72AB90009EE86A /* TaskCellTableViewCell.swift in Sources */,
 				C06CA0481E729BAA00A82685 /* AppDelegate.swift in Sources */,
+				4B06A3ED1E73C27200AC1B38 /* LabelViewController.swift in Sources */,
+				4B06A3E91E73C24900AC1B38 /* DashboardViewController.swift in Sources */,
 				C06CA0501E729BAA00A82685 /* Handle_ios.xcdatamodeld in Sources */,
-				4B06A3E71E73BDF700AC1B38 /* SecondViewController.swift in Sources */,
-				C06CA0791E72A3F100A82685 /* MainTableViewController.swift in Sources */,
+				4B06A3EB1E73C26400AC1B38 /* LabelsViewController.swift in Sources */,
+				4B06A3EF1E73C27B00AC1B38 /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
